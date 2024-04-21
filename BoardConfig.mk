@@ -171,3 +171,21 @@ TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone4/temp"
 # Other flags
 TW_EXCLUDE_APEX := true
 #
+
+# SHRP Flags
+SHRP_DEVICE_CODE := RMX2170
+SHRP_PATH := device/realme/$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := BN_LOS
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_HAS_RECOVERY_PARTITION := true
+SHRP_EDL_MODE := 1
+SHRP_INTERNAL := /sdcard
+SHRP_EXTERNAL := /external_sd
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_DARK := true
+
+# PBRP Flags
+PB_TORCH_PATH := /sys/class/leds/led:flash_1
