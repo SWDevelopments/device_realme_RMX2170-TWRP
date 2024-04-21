@@ -17,9 +17,9 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := reatoll
+PRODUCT_RELEASE_NAME := RMX2170
 
-$(call inherit-product, device/realme/reatoll/device.mk)
+$(call inherit-product, device/realme/RMX2170/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -28,8 +28,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := reatoll
-PRODUCT_NAME := twrp_reatoll
+PRODUCT_DEVICE := RMX2170
+PRODUCT_NAME := twrp_RMX2170
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := realme atoll
 PRODUCT_MANUFACTURER := realme
