@@ -19,3 +19,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),RMX2170)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
+
+# Define the list of shared libraries that this module depends on
+LOCAL_SHARED_LIBRARIES := \
+    libfscrypttwrp \
